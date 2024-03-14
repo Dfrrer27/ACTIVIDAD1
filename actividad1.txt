@@ -1,0 +1,158 @@
+Ejercicio 1:
+
+void main() {
+  print('hello world');
+}
+------------------------------------
+Ejercicio 2:
+DATOS STRING:
+   void main() {
+  	String nombre1 = "Diego";
+  	String nombre2 = "Ferrer";
+  	String nombre3 = "Rupaylla";
+  
+  	String saludo = "Hola, mi nombre es $nombre1 $nombre2 $nombre3";
+  
+  	print(saludo);
+
+     }
+
+DATOS NUMERICOS:
+   void main() {
+  	int edad = 20;
+  	double altura = 1.63;
+  	double peso = 66.70;
+  
+  	String fisico = "Hola, tengo $edad años, mi altura es $altura metros y mi peso es $peso";
+  
+  	print(fisico);
+
+    }
+-----------------------------------
+Ejercicio 3:
+
+LISTAS: 
+
+1) 
+void main() {
+  List numeros = [1,2,3,4,5];
+  print(numeros);
+}
+
+2)
+void main() {
+  List colores = ['rojo','verde','azul'];
+  print(colores);
+}
+
+3)
+
+void main() {
+  List numeros = [1,2,3,4,5];
+  print(numeros[0]);
+}
+
+4)
+
+void main() {
+  List colores = ['rojo', 'verde', 'azul'];
+  print(colores[2]);
+}
+
+5)
+void main() {
+  List colores = ['rojo', 'verde', 'azul'];
+  print(colores);
+  colores.add('amarillo');
+  print(colores);
+  
+  List numeros = [1,2,3,4,5];
+  print(numeros);
+  numeros.add(6);
+  print(numeros);
+}
+
+6)
+
+void main() {
+  List numeros = [1,2,3,4,5];
+  print(numeros);
+  numeros.add(6);
+
+
+  
+  for (int i = 0; i < numeros.length; i++) {
+    print('${numeros[i]}');
+  }
+}
+
+7)
+
+void main() {
+  List colores = ['rojo','verde','azul','amarillo'];
+  print(colores);
+
+  for (int i = 0; i < colores.length; i++) {
+    print('${colores[i]}');
+  }
+}
+
+MAPAS:
+
+1)
+
+void main() {
+ 
+  Map persona = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid'
+  };
+  
+}
+
+2)
+
+void main() {
+ 
+  Map persona = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid'
+  };
+  
+  print(persona['nombre']);
+}
+
+3)
+
+void main() {
+ 
+  Map persona = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid'
+  };
+  
+  print(persona['edad']);
+}
+
+4)
+
+
+
+5)
+void main() {
+ 
+  Map persona = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid'
+  };
+  
+  persona.addAll({'profesión' : 'Ingeniero'});
+  
+  print(persona);
+}
+
+
